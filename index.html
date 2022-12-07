@@ -12,6 +12,7 @@
 </head>
 <body>
     <h1>REGİSTER PAGE</h1>
+
     <form action="">
 <div>
     <label for="firstname">First Name</label>
@@ -20,10 +21,84 @@
     placeholder="Your firstname"
     required>
 </div>
+<div>
+    <label for="lastname">First Lastname</label>
+    <input type="text" name="firstname"
+    id="lasttname"
+    placeholder="Your Lastname"
+    required>
+</div>
+
+<div>
+    <label for="email">Email</label>
+    <input type="email" name="email"
+    id="email"
+    placeholder="Email"
+    required>
+</div>
+
+<div>
+    <label for="password">Password</label>
+    <input type="password" name="password"
+    id="password"
+    placeholder="Password"
+    required>
+</div>
+
+<div>
+    <label for="dob">Day of Birth</label>
+    <input type="date" name="dob"
+    id="dob"
+    min="2020-01-01"
+    value="2022-01-01"
+    placeholder="dob"
+    required>
+</div>
+
+<div>
+    <label for="phone">Phone</label>
+    <input type="tel" name="phone"
+    id="phone"
+    placeholder="Your phone number"
+    required>
+</div>
+
+<div>
+    <label for="address">Address</label>
+   <textarea name="address" id="address" cols="20" rows="5"></textarea>
+</div>
+
+<div>
+    <label for="country">Country</label>
+  <select name="country" id="country"> 
+    <option value="">Select Country</option>
+    <option value="Turkey">Turkey</option>
+    <option value="Germany">Germany</option>
+    <option value="USA">USA</option>
+</select>
+</div>
+
+<div>
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" id="male">
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="Female">Female</label>
+    
+    
+</div>
+
+
+
 
 <div>
     <input type="submit" value="Save">
+    <input type="reset" value="Clear">
 </div>
+
+
+
+
 
 
 
